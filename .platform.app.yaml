@@ -1,6 +1,10 @@
 name : 'quiziz'
 
 type: 'php:8.0'
+dependencies:
+  php:
+    composer/composer: '^2'
+
 
 relationships:
   database: "db:mysql"
