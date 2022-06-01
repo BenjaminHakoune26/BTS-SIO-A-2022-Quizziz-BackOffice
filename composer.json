@@ -19,5 +19,8 @@
     },
     "scripts": {
         "start": "php -S localhost:8042 -t public"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1"
     }
 }
