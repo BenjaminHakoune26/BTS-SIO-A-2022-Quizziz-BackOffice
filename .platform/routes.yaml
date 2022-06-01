@@ -1,0 +1,18 @@
+"https://{default}/":
+  type: upstream
+  upstream: "quizziz:http"
+  attributes: {
+                #ajout les attribut ici
+  }
+
+"https://www.{default}/":
+  type: redirect
+  to: "https://{default}/"
+
+#Attention, le default est a définir !!
+#{default}représente votre domaine personnalisé par défaut.
+#Sinon URL absolue
+
+
+#Commande pour voir les routes
+# platform environment:routes
