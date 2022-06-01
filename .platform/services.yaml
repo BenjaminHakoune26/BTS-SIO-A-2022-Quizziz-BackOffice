@@ -1,3 +1,5 @@
 db:
   type: mariadb:10.1
   disk: 256
+
+path:
