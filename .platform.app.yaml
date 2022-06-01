@@ -6,4 +6,5 @@ dependencies:
     composer/composer: '^2'
 
 relationships:
-  database: "db:mysql"
+  database: "db:mariadb"
+
